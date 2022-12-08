@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: azure;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.game {
+    position: relative;
+    height: 275px;
+    width: 275px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #fff;
+    text-align: left;
+}
+
+.pick {
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+#rock, #paper, #scissors {
+    height: 40px;
+    width: 70px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    color: black;
+    flex-direction: row;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.draw {
+    text-align: center;
+}
